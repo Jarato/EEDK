@@ -1,0 +1,22 @@
+Brier-Score																							
+RF			END_DT			END_LR			END_NB			PC_DT			PC_LR			PC_NB			MLP		
+Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic
+0.56755873	0.5675587	0.5675587	0.566197249	0.563248584	0.561989643	0.567547928	0.567502395	0.565847515	0.567524386	0.567181744	0.565590704	0.561360283	0.559679564	0.557779656	0.567542693	0.567503244	0.565407988	0.567537597	0.567234852	0.564369681	0.222691912	0.11282037	0.088787689
+ECE-Score																							
+RF			END_DT			END_LR			END_NB			PC_DT			PC_LR			PC_NB			MLP		
+Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic	Base	Sigmoid	Isotonic
+7.99E-05	3.41E-07	3.10E-07	0.035062457	0.048595833	0.131643671	0.005459541	0.114594679	0.167775191	0.008550714	0.012327296	0.049926633	0.185824771	0.027508433	0.021675089	0.005882521	0.007933376	0.09273133	0.009584488	0.013954275	0.158037438	1.80E-01	0.093743025	1.22E-01
+Hyperparameter																							
+RF	END_DT	END_LR	END_NB	PC_DT	PC_LR	PC_NB	MLP																
+{'min_impurity_decrease': 0.06536895854646095. 'min_samples_leaf': 8}	{'max_depth': 3}	{'C': 2.589765773237399. 'penalty': 'l2'}	{'var_smoothing': 0.005955303873386044}	{'max_depth': 3}	{'C': 4.367676288646779. 'penalty': 'l2'}	{'var_smoothing': 0.17376452585176372}	{'alpha': 0.19270862629815616. 'batch_size': 300. 'power_t': 3.8702308785949264}																
+Mean Fit Time																							
+RF	END_DT	END_LR	END_NB	PC_DT	PC_LR	PC_NB	MLP																
+6.857168595	195.2676221	426.207237	179.0548096	6.515843272	73.26931209	896.2534518	53.31553512																
+Mean Score Time																							
+RF	END_DT	END_LR	END_NB	PC_DT	PC_LR	PC_NB	MLP																
+1.81576213	1.190437293	1.330007529	4.533149401	487.3516162	428.6409806	1.248873274	0.455287751																
+																							
+																							
+																							
+																							
+																							
