@@ -1,0 +1,2 @@
+RF	END_DT	END_LR	END_NB	PC_DT	PC_LR	PC_NB	MLP
+{'min_impurity_decrease': 0.006820628846711264, 'min_samples_leaf': 28}	{'max_depth': 3}	{'C': 14.902600625374221, 'penalty': 'l2'}	{'var_smoothing': 0.973649118052793}	{'max_depth': 3}	{'C': 17.61608973484947, 'penalty': 'l2'}	{'var_smoothing': 0.9717542629726859}	{'alpha': 0.9869121640622517, 'batch_size': 100, 'power_t': 2.3297820101364564}

@@ -42,8 +42,8 @@ class PairwiseCoupling_NB(BaseEstimator,ClassifierMixin):
                 p += 1
                 #if (p==1):
                 #    print(proba_pair)
-                invertedSumByClass[pair[0]] += 1.0/proba_pair[0][0]
-                invertedSumByClass[pair[1]] += 1.0/proba_pair[0][1] 
+                invertedSumByClass[pair[0]] += 1.00001/(proba_pair[0][0]+0.00001)
+                invertedSumByClass[pair[1]] += 1.00001/(proba_pair[0][1]+0.00001)
             sum = 0
             for k in range(self.nclasses):
                 invertedSumByClass[k] = 1.0/invertedSumByClass[k]

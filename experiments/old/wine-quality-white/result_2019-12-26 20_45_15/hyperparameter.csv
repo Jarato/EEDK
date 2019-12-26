@@ -1,0 +1,3 @@
+RF	END_DT	END_LR	END_NB	PC_DT	PC_LR	PC_NB	MLP
+{'min_impurity_decrease': 0.006820628846711264, 'min_samples_leaf': 28}	{'max_depth': 3}	{'C': 4.318278567659069, 'penalty': 'l2'}	{'var_smoothing': 0.18836204849738158}	{'max_depth': 2}	{'C': 11.487071929918567, 'penalty': 'l2'}	{'var_smoothing': 0.2415552583635281}	{'alpha': 0.9869121640622517, 'batch_size': 100, 'power_t': 2.3297820101364564}
+{'min_impurity_decrease': 0.017927188556402164, 'min_samples_leaf': 12}	{'max_depth': 2}	{'C': 9.05228993990651, 'penalty': 'l2'}	{'var_smoothing': 0.2704226170920814}	{'max_depth': 2}	{'C': 11.565380925090983, 'penalty': 'l2'}	{'var_smoothing': 0.17244475307715024}	{'alpha': 5.539906790178433, 'batch_size': 400, 'power_t': 2.1148845734589887}

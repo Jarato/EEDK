@@ -9,7 +9,7 @@ class EnsembleND_LR(BaseEstimator):
         self.number_of_nds = number_of_nds
         self.number_of_classes=number_of_classes
         self.model_type=LogisticRegression
-        self.kwargs={'penalty': penalty, 'C': C}
+        self.kwargs={'penalty': penalty, 'C': C, 'solver': 'liblinear','max_iter':1000}
         self.generator_str = generator_String
         self.params = {'number_of_nds': number_of_nds, 'number_of_classes': number_of_classes, 'penalty': penalty, 'C': C, 'generator_String': generator_String, 'random_state': random_state}
         self.random_state=random_state
